@@ -87,6 +87,7 @@
     "phantomjs-polyfill": "0.0.2",
     "shrinkwarp": "^1.2.0",
     "sinon": "^1.17.4",
-    "sinon-as-promised": "^3.0.1"
+    "sinon-as-promised": "^3.0.1",
+    "bootstrap-sass": "3.3.7"
   }
 }

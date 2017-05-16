@@ -7,7 +7,7 @@ import {loadState, saveState} from 'stores/localstorage';
 import throttle from 'lodash/throttle';
 import routes from 'routes';
 
-require('assets/main.scss');
+require('assets/scss/main.scss');
 
 export const history = browserHistory;
 export const store = configureStore({}, history);
