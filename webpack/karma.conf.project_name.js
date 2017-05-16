@@ -9,7 +9,7 @@ module.exports = function (config) {
     reporters: ['mocha'],
     files: [
       '../node_modules/phantomjs-polyfill/bind-polyfill.js',
-      './test.karma.agora.js'
+      'test.karma.project_name.js'
     ],
     preprocessors: {
       './test.karma.agora.js': ['webpack', 'sourcemap']

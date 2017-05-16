@@ -1,12 +1,12 @@
 {
-  "name": "karamba-frontend",
+  "name": "react-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --hot --inline --config ./webpack/webpack.agora.js",
-    "test": "NODE_ENV=development karma start ./webpack/karma.conf.agora",
-    "prod": "NODE_ENV=production webpack --config ./webpack/webpack.agora.js"
+    "dev": "NODE_ENV=development webpack-dev-server --port 8088 --hot --inline --config ./webpack/webpack.project_name.js",
+    "test": "NODE_ENV=development karma start ./webpack/karma.conf.project_name",
+    "prod": "NODE_ENV=production webpack --config ./webpack/webpack.project_name.js"
   },
   "repository": {
     "type": "git",
